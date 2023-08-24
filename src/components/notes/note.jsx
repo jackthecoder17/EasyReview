@@ -1,6 +1,7 @@
 import style from "./note.module.scss";
 import Navbar from "../navbar/Navbar";
-import copy from "../../assets/vector.svg";
+
+import copy from "../../assets/copy.svg";
 import edit from "../../assets/edit.svg";
 import { Link } from "react-router-dom";
 
