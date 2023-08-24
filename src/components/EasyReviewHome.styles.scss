@@ -1,0 +1,70 @@
+.Easycontainer {
+  .header {
+    nav {
+      a {
+        font-family: Montserrat;
+        font-size: 0.9rem;
+        font-style: normal;
+        font-weight: 600;
+      }
+      button {
+        font-family: Manrope;
+        font-size: 1.2rem;
+      }
+    }
+  }
+  .Enhance {
+    h1 {
+      color: #333;
+      font-family: Open-Sans-Hebrew, sans-serif;
+      // font-size: 3.3rem;
+      font-style: normal;
+      font-weight: 700;
+      // line-height: 75.5px; /* 125.833% */
+      // letter-spacing: -3.6px;
+
+      // @media screen and (max-width:900px){
+      //   font-size: 2rem;
+      //   line-height: 50px;
+      // }
+    }
+  }
+  .overview {
+    .firstcont {
+      b {
+        font-family: Open-Sans-Hebrew, sans-serif;
+      }
+      p {
+        color: rgba(16, 24, 40, 0.6);
+      }
+    }
+    .secondcont {
+      div {
+        b {
+          color: #3b3b3b;
+          font-family: Open-Sans-Hebrew, sans-serif;
+          font-size: 1.5rem;
+        }
+        div {
+          color: rgba(16, 24, 40, 0.6);
+          font-family: Montserrat;
+          font-size: 0.9rem;
+        }
+      }
+    }
+  }
+  .integration {
+    
+    .maincol {
+      h2 {
+        color: rgba(16, 24, 40, 0.8);
+        font-family: Montserrat;
+      }
+      p {
+        color: rgba(16, 24, 40, 0.6);
+        font-family: Montserrat;
+        font-size: 1rem;
+      }
+    }
+  }
+}
