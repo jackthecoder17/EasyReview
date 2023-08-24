@@ -112,17 +112,18 @@ const Mainnav = () => {
                   About Us
                 </Link>
                 <Link
+                  to ='/blog'
                   href="#"
                   className="-mx-3 block rounded-lg px-3 py-2 text-base font-semibold leading-7 text-gray-900 hover:bg-gray-50"
                 >
                   Blog
                 </Link>
               </div>
-              <div className="py-6">
+              <Link className="py-6" to='/browser'>
                 <button className="bg-[#4F46BA] text-white py-2 px-6 rounded-lg flex">
                   Get Started
                 </button>
-              </div>
+              </Link>
             </div>
           </div>
         </Dialog.Panel>

@@ -24,28 +24,28 @@ const Contact = () => {
           </p>
         </div>
         <div className="flex flex-wrap justify-between md:w-[55%]">
-          <div className="sm:w-[48%] mb-3">
+          <div className="w-full sm:w-[48%] mb-3">
             <label htmlFor="">Name</label>
             <input
               type="text"
               className="w-full border border-[#C2C2C2] rounded-[9px] p-3 mt-3"
             />
           </div>
-          <div className="sm:w-[48%] mb-3">
+          <div className="w-full sm:w-[48%] mb-3">
             <label htmlFor="">Company</label>
             <input
               type="text"
               className="w-full border border-[#C2C2C2] rounded-[9px] p-3 mt-3"
             />
           </div>
-          <div className="sm:w-[48%] mb-3">
+          <div className="w-full sm:w-[48%] mb-3">
             <label htmlFor="">Phone Number</label>
             <input
               type="text"
               className="w-full border border-[#C2C2C2] rounded-[9px] p-3 mt-3"
             />
           </div>
-          <div className="sm:w-[48%] mb-3">
+          <div className="w-full sm:w-[48%] mb-3">
             <label htmlFor="">Email Address</label>
             <input
               type="text"

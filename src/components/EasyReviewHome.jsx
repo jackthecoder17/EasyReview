@@ -170,8 +170,8 @@ const EasyReviewHome = () => {
       </div>
 
       {/* fifth section */}
-      <div className="w-[90%] flex flex-col md:flex-row py-8 px-4 md:px-6 items-center justify-center gap-16 mx-auto integration">
-        <div className="flex flex-col sm:p-8 items-start justify-start gap-8 w-full md:w-1/2">
+      <div className="w-[90%] flex flex-col md:flex-row  items-center justify-center gap-16 mx-auto integration">
+        <div className="flex flex-col items-start justify-start gap-8 w-full md:w-1/2">
           <div className="flex flex-col items-start justify-start gap-4">
             <div className="leading-7 font-semibold text-[#4F46BA]">
               Key Features
