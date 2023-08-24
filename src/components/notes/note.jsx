@@ -12,7 +12,7 @@ const Note = () => {
         className="text-center text-[#4F46BA] text-2xl
              mt-3 underline mb-6"
       >
-        Paste to Company Website 
+        Paste to Company Website   
       </h1>
 
       <div className="w-[90%] mx-auto maincont flex flex-row flex-wrap gap-5 justify-center">
