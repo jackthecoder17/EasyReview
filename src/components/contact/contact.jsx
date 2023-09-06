@@ -3,7 +3,8 @@ import Mainnav from "../mainNavbar/miannav";
 import Footer from "../footer/footer";
 const Contact = () => {
   return (
-    <div className="relative bg-white w-full h-auto">
+    <>
+        <div className="relative bg-white max-w-screen-2xl mx-auto h-auto">
       <Mainnav />
       <div className="w-[90%] mx-auto flex flex-row flex-wrap items-center justify-center mt-32 mb-32 gap-9 md:gap-0">
         <div className="flex flex-col font-open-sans-hebrew text-darkslategray-300 text-center items-center md:w-[45%] ">
@@ -67,8 +68,11 @@ const Contact = () => {
         
       </div>
       
-        <Footer />
+        
     </div>
+    <Footer />
+    </>
+
   );
 };
 

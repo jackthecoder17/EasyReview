@@ -3,11 +3,14 @@ import Mainnav from "../mainNavbar/miannav";
 import Footer from "../footer/footer";
 const Pricing = () => {
   return (
-    <div className={`w-full h-screen ${style.pricing}`}>
+    <>
+    <div className={`w-full h-screen max-w-screen-2xl mx-auto ${style.pricing}`}>
       <Mainnav />
       <div className={`w-[90%] mx-auto`}>
-        <div className="flex flex-col items-center justify-center mt-20 
-        mb-20  lg:mb-32 gap-3 md:gap-0 text-center">
+        <div
+          className="flex flex-col items-center justify-center mt-20 
+        mb-20  lg:mb-32 gap-3 md:gap-0 text-center"
+        >
           <img src="/money.svg" alt="" className=" h-60 w-60" />
           <h3 className="text-[#4F46BA] text-xl font-semibold">Pricing</h3>
           <h1 className="text-center text-[#333333] sm:text-[2.4rem] font-bold leading-10 tracking-tight lg:mb-4">
@@ -39,55 +42,51 @@ const Pricing = () => {
                 Silver Card
               </h1>
               <p
-                className={`text-[#4D5052] text-3xl font-semibold leading-10 tracking-tight flex align-middle justify-center items-center`} 
+                className={`text-[#4D5052] text-3xl font-semibold leading-10 tracking-tight flex align-middle justify-center items-center`}
               >
-                $0  <span className="text-sm text-[#4D5052] font-normal ml-1">/month</span>
+                $0{" "}
+                <span className="text-sm text-[#4D5052] font-normal ml-1">
+                  /month
+                </span>
               </p>
-             
             </div>
             <div
               className={`flex flex-col items-center justify-center ${style.cardBody}`}
             >
-              <ul 
-              className="flex flex-col items-start justify-start gap-3 w-full"
-              >
+              <ul className="flex flex-col items-start justify-start gap-3 w-full">
                 <li className="flex items-center justify-start gap-5">
-                  <img src="/checkmark.svg" alt="" className=" h-4 w-4"/>
+                  <img src="/checkmark.svg" alt="" className=" h-4 w-4" />
                   <p className="text-[#4D5052] text-base font-normal">
                     Smart Review Cards Distribution
                   </p>
                 </li>
                 <li className="flex items-center justify-start gap-5">
-                  <img src="/checkmark.svg" alt="" className=" h-4 w-4"/>
+                  <img src="/checkmark.svg" alt="" className=" h-4 w-4" />
                   <p className="text-[#4D5052] text-base font-normal">
-                  AI Analysis and Generation
+                    AI Analysis and Generation
                   </p>
                 </li>
                 <li className="flex items-center justify-start gap-5">
-                  <img src="/checkmark.svg" alt="" className=" h-4 w-4"/>
+                  <img src="/checkmark.svg" alt="" className=" h-4 w-4" />
                   <p className="text-[#4D5052] text-base font-normal">
-                  Effortless Sharing on Major Platforms
+                    Effortless Sharing on Major Platforms
                   </p>
                 </li>
                 <li className="flex items-center justify-start gap-5">
-                  <img src="/checkmark.svg" alt="" className=" h-4 w-4"/>
+                  <img src="/checkmark.svg" alt="" className=" h-4 w-4" />
                   <p className="text-[#4D5052] text-base font-normal">
-                  Customer Interaction
+                    Customer Interaction
                   </p>
                 </li>
                 <li className="flex items-center justify-start gap-5">
-                  <img src="/checkmark.svg" alt="" className=" h-4 w-4"/>
+                  <img src="/checkmark.svg" alt="" className=" h-4 w-4" />
                   <p className="text-[#4D5052] text-base font-normal">
-                  Convenient Customer Link
+                    Convenient Customer Link
                   </p>
                 </li>
-                
-
               </ul>
-              <button
-              className="bg-[#4F46BA] text-white font-semibold text-lg py-3 px-4 rounded-[9px] mt-10 w-full"
-              >
-              Buy Silver Card
+              <button className="bg-[#4F46BA] text-white font-semibold text-lg py-3 px-4 rounded-[9px] mt-10 w-full">
+                Buy Silver Card
               </button>
             </div>
           </div>
@@ -103,55 +102,51 @@ const Pricing = () => {
                 Platinum Card
               </h1>
               <p
-                className={`text-[#4D5052] text-3xl font-semibold leading-10 tracking-tight flex align-middle justify-center items-center`} 
+                className={`text-[#4D5052] text-3xl font-semibold leading-10 tracking-tight flex align-middle justify-center items-center`}
               >
-                $0  <span className="text-sm text-[#4D5052] font-normal ml-1">/month</span>
+                $0{" "}
+                <span className="text-sm text-[#4D5052] font-normal ml-1">
+                  /month
+                </span>
               </p>
-             
             </div>
             <div
               className={`flex flex-col items-center justify-center ${style.cardBody}`}
             >
-              <ul 
-              className="flex flex-col items-start justify-start gap-3 w-full"
-              >
+              <ul className="flex flex-col items-start justify-start gap-3 w-full">
                 <li className="flex items-center justify-start gap-5">
-                  <img src="/checkmark.svg" alt="" className=" h-4 w-4"/>
+                  <img src="/checkmark.svg" alt="" className=" h-4 w-4" />
                   <p className="text-[#4D5052] text-base font-normal">
                     Smart Review Cards Distribution
                   </p>
                 </li>
                 <li className="flex items-center justify-start gap-5">
-                  <img src="/checkmark.svg" alt="" className=" h-4 w-4"/>
+                  <img src="/checkmark.svg" alt="" className=" h-4 w-4" />
                   <p className="text-[#4D5052] text-base font-normal">
-                  AI Analysis and Generation
+                    AI Analysis and Generation
                   </p>
                 </li>
                 <li className="flex items-center justify-start gap-5">
-                  <img src="/checkmark.svg" alt="" className=" h-4 w-4"/>
+                  <img src="/checkmark.svg" alt="" className=" h-4 w-4" />
                   <p className="text-[#4D5052] text-base font-normal">
-                  Effortless Sharing on Major Platforms
+                    Effortless Sharing on Major Platforms
                   </p>
                 </li>
                 <li className="flex items-center justify-start gap-5">
-                  <img src="/checkmark.svg" alt="" className=" h-4 w-4"/>
+                  <img src="/checkmark.svg" alt="" className=" h-4 w-4" />
                   <p className="text-[#4D5052] text-base font-normal">
-                  Customer Interaction
+                    Customer Interaction
                   </p>
                 </li>
                 <li className="flex items-center justify-start gap-5">
-                  <img src="/checkmark.svg" alt="" className=" h-4 w-4"/>
+                  <img src="/checkmark.svg" alt="" className=" h-4 w-4" />
                   <p className="text-[#4D5052] text-base font-normal">
-                  Convenient Customer Link
+                    Convenient Customer Link
                   </p>
                 </li>
-                
-
               </ul>
-              <button
-              className="bg-[#4F46BA] text-white font-semibold text-lg py-3 px-4 rounded-[9px] mt-10 w-full"
-              >
-              Buy Silver Card
+              <button className="bg-[#4F46BA] text-white font-semibold text-lg py-3 px-4 rounded-[9px] mt-10 w-full">
+                Buy Silver Card
               </button>
             </div>
           </div>
@@ -167,29 +162,35 @@ const Pricing = () => {
                 Custom Card
               </h1>
               <p
-                className={`text-[#4D5052] text-3xl font-semibold leading-10 tracking-tight flex align-middle justify-center items-center`} 
+                className={`text-[#4D5052] text-3xl font-semibold leading-10 tracking-tight flex align-middle justify-center items-center`}
               >
-                $0  <span className="text-sm text-[#4D5052] font-normal ml-1">/month</span>
+                $0{" "}
+                <span className="text-sm text-[#4D5052] font-normal ml-1">
+                  /month
+                </span>
               </p>
-             
             </div>
             <div
               className={`flex flex-col items-center justify-center ${style.cardBody} `}
             >
               <p className=" text-[#4D5052] text-base font-normal ">
-              Our Custom Plan offers flexibility to design a solution that perfectly suits your business. From specialized features to tailored pricing, we work closely with you to create a plan that aligns with your vision.
+                Our Custom Plan offers flexibility to design a solution that
+                perfectly suits your business. From specialized features to
+                tailored pricing, we work closely with you to create a plan that
+                aligns with your vision.
               </p>
-              <button
-              className="bg-[#4F46BA] text-white font-semibold text-lg py-3 px-4 rounded-[9px] mt-10 w-full"
-              >
-              Get Started
+              <button className="bg-[#4F46BA] text-white font-semibold text-lg py-3 px-4 rounded-[9px] mt-10 w-full">
+                Get Started
               </button>
             </div>
           </div>
         </div>
       </div>
-      <Footer />
+     
     </div>
+    <Footer />
+    </>
+    
   );
 };
 

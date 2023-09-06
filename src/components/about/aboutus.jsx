@@ -2,7 +2,8 @@ import Mainnav from "../mainNavbar/miannav";
 import Footer from "../footer/footer";
 const AboutUs = () => {
   return (
-    <div className="relative bg-white w-full h-screen font-montserrat">
+    <>
+     <div className="relative bg-white w-full h-screen font-montserrat max-w-screen-2xl mx-auto">
       <Mainnav />
 
       <div className="w-[90%] mx-auto flex flex-wrap justify-between mt-20 mb-20  md:gap-0 gap-10">
@@ -133,8 +134,11 @@ const AboutUs = () => {
       <br />
       <br />
 
-      <Footer />
+      
     </div>
+    <Footer />
+    </>
+   
   );
 };
 

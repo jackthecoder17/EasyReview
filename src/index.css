@@ -7,6 +7,15 @@
 body {
   @apply leading-[normal] m-0;
 }
+a{
+  font-family:'Montserrat', sans-serif;
+}
+h1,b{
+  font-family: 'Open Sans', sans-serif;
+}
+p,div{
+  font-family: 'Montserrat', sans-serif;
+}
 *,
 ::before,
 ::after {

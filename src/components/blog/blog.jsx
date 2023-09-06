@@ -5,7 +5,8 @@ import { Link } from "react-router-dom";
 import style from "./blog.module.scss";
 const Blog = () => {
   return (
-    <div className={`w-full h-screen ${style.Blog}`}>
+    <>
+    <div className={`w-full max-w-screen-2xl mx-auto h-full ${style.Blog}`}>
       <Mainnav />
       <div className={`w-[90%] mx-auto`}>
         <div className={`flex flex-col w-full ${style.section1} mt-5`}>
@@ -260,8 +261,11 @@ const Blog = () => {
         </div>
       </div>
       </div>
-      <Footer />
+      
     </div>
+    <Footer />
+    </>
+    
   );
 };
 

@@ -3,6 +3,7 @@ import { Link } from "react-router-dom";
 const Footer = () => {
   return (
     <div className="w-full bg-[#4F46BA]">
+    <div className="max-w-screen-2xl mx-auto">
       <div className="w-[90%] mx-auto bg-slateblue flex flex-row pt-20 flex-wrap  pb-20 items-start  gap-11 lg:gap-40 text-lg text-white font-manrope ">
         <div className="flex flex-col px-2.5">
           <img className="w-32" alt="" src="/logo.svg" />
@@ -51,6 +52,7 @@ const Footer = () => {
           </div>
         </div>
       </div>
+    </div>
     </div>
   );
 };

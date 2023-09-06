@@ -1,8 +1,14 @@
 .Easycontainer {
+  h1,b{
+    font-family: 'Open Sans', sans-serif;
+  }
+  p{
+    font-family: 'Montserrat', sans-serif;
+  }
   .header {
     nav {
       a {
-        font-family: Montserrat;
+        font-family: 'Montserrat', sans-serif;
         font-size: 0.9rem;
         font-style: normal;
         font-weight: 600;
@@ -16,38 +22,35 @@
   .Enhance {
     h1 {
       color: #333;
-      font-family: Open-Sans-Hebrew, sans-serif;
+      font-family: 'Open Sans', sans-serif;
       // font-size: 3.3rem;
       font-style: normal;
       font-weight: 700;
-      // line-height: 75.5px; /* 125.833% */
-      // letter-spacing: -3.6px;
-
-      // @media screen and (max-width:900px){
-      //   font-size: 2rem;
-      //   line-height: 50px;
-      // }
+    }
+    p{
+      font-family: 'Montserrat', sans-serif;
     }
   }
   .overview {
     .firstcont {
       b {
-        font-family: Open-Sans-Hebrew, sans-serif;
+        font-family: 'Open Sans', sans-serif
       }
       p {
         color: rgba(16, 24, 40, 0.6);
+        font-family: 'Montserrat', sans-serif;
       }
     }
     .secondcont {
       div {
         b {
           color: #3b3b3b;
-          font-family: Open-Sans-Hebrew, sans-serif;
+          font-family: 'Open Sans', sans-serif;
           font-size: 1.5rem;
         }
         div {
           color: rgba(16, 24, 40, 0.6);
-          font-family: Montserrat;
+          font-family: 'Montserrat', sans-serif;
           font-size: 0.9rem;
         }
       }
@@ -58,11 +61,11 @@
     .maincol {
       h2 {
         color: rgba(16, 24, 40, 0.8);
-        font-family: Montserrat;
+        font-family: 'Montserrat', sans-serif;
       }
       p {
         color: rgba(16, 24, 40, 0.6);
-        font-family: Montserrat;
+        font-family: 'Montserrat', sans-serif;
         font-size: 1rem;
       }
     }
