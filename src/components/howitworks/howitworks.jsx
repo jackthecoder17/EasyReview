@@ -1,11 +1,12 @@
 import Mainnav from "../mainNavbar/miannav";
 import Footer from "../footer/footer";
+import { Link } from "react-router-dom";
 const Howitworks = () => {
   return (
     <div className="">
       <div className="relative bg-white w-full min-h-screen overflow-hidden text-left  text-gray-400 font-open-sans-hebrew max-w-screen-2xl mx-auto">
         <Mainnav />
-        <div className="flex flex-col items-center space-y-8 p-4">
+        <div className="flex flex-col items-center space-y-8 p-4 mb-[2.375rem]">
           <b className=" text-lg text-[#4F46BA] leading-8 ">How it Works</b>
           <b className="text-xl md:text-5xl tracking-tight  text-[#333] text-center sm:w-[55%]">
             Streamlined Review Enhancement with EasyReview
@@ -22,17 +23,17 @@ const Howitworks = () => {
         </div>
 
         <div className="w-[90%] mx-auto flex flex-col md:flex-row items-center justify-center space-y-4 md:space-y-0 md:space-x-8 p-4 bg-slateblue rounded text-black mb-10">
-          <button
+          <Link to="/browser"
             className="leading-tight font-semibold 
         bg-[#4F46BA] text-white px-6 py-3 rounded-lg
         font-manrope"
           >
             Get Started
-          </button>
-          <button className="text-[#4F46BA] font-medium font-montserrat flex gap-3 items-center justify-center align-middle">
+          </Link>
+          <Link className="text-[#4F46BA] font-medium font-montserrat flex gap-3 items-center justify-center align-middle">
             <img src="./play.svg" alt="" />
             <p className="text-[1.1rem]">See It In Action</p>
-          </button>
+          </Link>
         </div>
 
         <img
@@ -51,7 +52,7 @@ const Howitworks = () => {
       w-[90%] mx-auto mt-20 mb-20
       "
         >
-          <img src="./orange.svg" alt="" />
+          <img src="./orange.svg" alt="" className="mb-[1.5rem]" />
           <h1 className="text-center text-[#333333] sm:text-[2.4rem] font-bold leading-10 tracking-tight">
             How it Works
           </h1>

@@ -8,14 +8,14 @@ const Contact = () => {
       <Mainnav />
       <div className="w-[90%] mx-auto flex flex-row flex-wrap items-center justify-center mt-32 mb-32 gap-9 md:gap-0">
         <div className="flex flex-col font-open-sans-hebrew text-darkslategray-300 text-center items-center md:w-[45%] ">
-          <img src="./orange.svg" alt="" />
-          <p className="text-[#4F46BA] text-[1.5rem] font-Montserrat">
+          <img src="./orange.svg" alt=""className="mb-5" />
+          <p className="text-[#4F46BA] text-[1.2rem] font-semibold font-Montserrat">
             Contact Us
           </p>
           <span className=" w-full sm:w-[70%]">
             <b className="sm:text-[2.8rem] text-[1.6rem]">Let’s talk with our expert</b> 
           </span>
-          <p className="text-[1.2rem] leading-[1.8rem] text-gray-400 text-center flex items-center justify-center sm:w-[70%] mt-4 gap-6"
+          <p className="text-[1rem] leading-[1.8rem] text-center flex items-center justify-center sm:w-[70%] mt-4 gap-6"
           style={{
             color: 'rgba(16, 24, 40, 0.60)'
           }}
@@ -29,28 +29,28 @@ const Contact = () => {
             <label htmlFor="">Name</label>
             <input
               type="text"
-              className="w-full border border-[#C2C2C2] rounded-[9px] p-3 mt-3"
+              className="w-full border border-[#C2C2C2] rounded-[9px] p-3 mt-3 h-[45px]"
             />
           </div>
           <div className="w-full sm:w-[48%] mb-3">
             <label htmlFor="">Company</label>
             <input
               type="text"
-              className="w-full border border-[#C2C2C2] rounded-[9px] p-3 mt-3"
+              className="w-full border border-[#C2C2C2] rounded-[9px] p-3 mt-3 h-[45px]"
             />
           </div>
           <div className="w-full sm:w-[48%] mb-3">
             <label htmlFor="">Phone Number</label>
             <input
               type="text"
-              className="w-full border border-[#C2C2C2] rounded-[9px] p-3 mt-3"
+              className="w-full border border-[#C2C2C2] rounded-[9px] p-3 mt-3 h-[45px]"
             />
           </div>
           <div className="w-full sm:w-[48%] mb-3">
             <label htmlFor="">Email Address</label>
             <input
               type="text"
-              className="w-full border border-[#C2C2C2] rounded-[9px] p-3 mt-3"
+              className="w-full border border-[#C2C2C2] rounded-[9px] p-3 mt-3 h-[45px]"
             />
           </div>
           <div className="w-full">

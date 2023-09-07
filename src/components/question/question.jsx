@@ -3,7 +3,9 @@ import { useState } from "react";
 import style from "./question.module.scss";
 import Navbar from "../navbar/Navbar";
 import { Link } from "react-router-dom";
+import { GenerateReviewApi } from "../../api/questionApi";
 const Question = () => {
+  const [isLoading, setIsLoading] = useState(false);
   const [selectedAnswers, setSelectedAnswers] = useState([null, null, null]);
 
   const handleAnswerClick = (index,answer) => {
@@ -11,6 +13,23 @@ const Question = () => {
     newAnswer[index] = answer;
     setSelectedAnswers(newAnswer);
   };
+
+  const handleGenerate = () => {
+    setIsLoading(true);
+    GenerateReviewApi({
+      reccomendation1: selectedAnswers[0],
+      reccomendation2: selectedAnswers[1],
+      reccomendation3: selectedAnswers[2],
+    }).then(res => {
+      console.log(res);
+      console.log(selectedAnswers);
+      setIsLoading(false);
+    }).catch((err)=>{
+      console.log(err);
+      setIsLoading(false);
+    })
+    console.log('HEY')
+  }
   return (
     <div className={`${style.Question} w-full h-screen flex flex-col`}>
       <Navbar />
@@ -27,7 +46,7 @@ const Question = () => {
               `}
               >How was your overall experience?</h1>
               <div className="flex flex-wrap gap-4">
-                {["Good", "Very Good", "Excellent", "Bad"].map(answer => (
+                {["Good", "Average", "Excellent", "Bad"].map(answer => (
                   <button
                     key={answer}
                     onClick={() => handleAnswerClick(questionIndex, answer)}
@@ -56,10 +75,11 @@ const Question = () => {
             >
                 Back
             </button>
-            <Link to="/note"
-
+            <button 
+              onClick={handleGenerate}
+              disabled={selectedAnswers.includes(null) || isLoading}
                 className={`bg-[#4F46BA] text-white flex items-center justify-center px-12 py-4 rounded-[17px] font-bold`}
-            >Generate</Link>
+            >Generate</button>
           </div>
           
         </div>

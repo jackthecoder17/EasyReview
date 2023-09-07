@@ -1,6 +1,7 @@
 import "./EasyReviewHome.styles.scss";
 import Mainnav from "./mainNavbar/miannav";
 import Footer from "./footer/footer";
+import { Link } from "react-router-dom";
 const EasyReviewHome = () => {
   return (
     <>
@@ -9,16 +10,16 @@ const EasyReviewHome = () => {
 
         <Mainnav />
         {/* first section*/}
-        <div className="w-[90%] mx-auto  flex flex-row flex-wrap items-center justify-between text-darkslategray-200 Enhance mt-10 lg:mt-0">
+        <div className="w-[90%] mx-auto  flex flex-row flex-wrap items-center justify-between text-darkslategray-200 Enhance mt-10 lg:mt-0 mb-[100px]">
           <div className="md:w-1/2 flex flex-col items-start justify-start gap-8 sm:p-6">
             <h1 className="font-open-sans-hebrew md:leading-tight text-[#333333] text-2xl lg:text-5xl">
               Enhance Business Reputation with Genuine Customer Reviews.
             </h1>
-            <p className="leading-8 text-[#828282]">
+            <p className="leading-8 text-[#828282] sm:w-[62%]">
               The Ultimate Review Collection Solution with a single card tap
             </p>
             <div className="flex gap-8">
-              <button className="bg-[#F1573B] text-white py-2 px-6 rounded-lg mt-6 flex gap-3 justify-center items-center">
+              <Link to="/browser" className="bg-[#F1573B] text-white py-2 px-6 rounded-lg mt-6 flex gap-3 justify-center items-center">
                 <p>Get Started</p>
                 <div
                   className="
@@ -28,8 +29,10 @@ const EasyReviewHome = () => {
                 >
                   <img className="h-4" alt="" src="/rightarrow.svg" />
                 </div>
-              </button>
-              <button className="text-[#F1573B] mt-6">How it’s Work</button>
+              </Link>
+              <Link to="/howitworks" className="text-[#F1573B] mt-6 flex items-center gap-2">
+                <img src="/playbtn.svg" alt="" />
+                How it’s Work</Link>
             </div>
           </div>
           <div className="md:w-1/2">
@@ -42,7 +45,7 @@ const EasyReviewHome = () => {
         </div>
         {/* second section */}
         <div className="flex flex-col mt-10 items-center justify-start text-center font-open-sans-hebrew overview">
-          <div className="flex flex-col items-center justify-start gap-2 px-4 md:px-32 lg:px-48 firstcont">
+          <div className="flex flex-col items-center justify-start gap-2 px-4 md:px-32 lg:px-48 firstcont pb-[70px]">
             <b className="leading-7 text-left text-[#4F46BA]">Overview</b>
             <b className="text-4xl md:text-5xl leading-tight text-darkslategray-200">
               Tap, Generate, Thrive
@@ -108,7 +111,7 @@ const EasyReviewHome = () => {
               Trusted by world’s leading brands
             </div>
           </div>
-          <div className="flex flex-wrap justify-center gap-4 py-6">
+          {/* <div className="flex flex-wrap justify-center gap-4 py-6">
             <img
               className="w-full md:w-auto h-auto object-cover mix-blend-normal"
               alt=""
@@ -119,7 +122,7 @@ const EasyReviewHome = () => {
               alt=""
               src="/image-2@2x.png"
             />
-          </div>
+          </div> */}
         </div>
 
         {/* fourth section */}
@@ -127,7 +130,7 @@ const EasyReviewHome = () => {
           <div className="flex flex-col p-8  justify-start w-full md:w-1/2">
             <div className="w-full">
               <img
-                className="w-full h-auto object-cover"
+                className="w-[90%] h-auto object-cover"
                 src="/Image.svg"
                 alt=""
               />
@@ -181,7 +184,7 @@ const EasyReviewHome = () => {
                 AI-Powered Review Generation
               </b>
             </div>
-            <div className="flex flex-col gap-8 text-xl text-gray-500 maincol">
+            <div className="flex flex-col gap-8 text-xl text-gray-500 maincol"> 
               <div className="flex flex-row items-start gap-6">
                 <img className="w-12 h-12" alt="" src="/icon3.svg" />
                 <div className="flex flex-col gap-2">

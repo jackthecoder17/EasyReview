@@ -6,9 +6,9 @@ import { Link } from "react-router-dom";
 // import { Navbar } from "../navbar/Navbar.component";
 const Browser = () => {
   return (
-    <div className={`w-full h-screen flex flex-col bg-[#4F46BA] ${style.browserpage}`}>
+    <div className={`w-full  h-screen flex flex-col bg-[#4F46BA] ${style.browserpage}`}>
       {/* <Navbar /> */}
-      <div className="w-full h-full flex flex-col ">
+      <div className="w-full h-full flex flex-col max-w-screen-2xl mx-auto">
         <div className="flex-grow"></div>
         <div className={`bg-white pt-5 pb-5 rounded-t-[50px] ${style.maincont}`}>
           <div className={`w-full flex flex-col justify-center items-center ${style.imagecont}`}>

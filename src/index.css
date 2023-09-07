@@ -4,6 +4,11 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+*{
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
 body {
   @apply leading-[normal] m-0;
 }
@@ -13,8 +18,12 @@ a{
 h1,b{
   font-family: 'Open Sans', sans-serif;
 }
-p,div{
+p,div,label{
   font-family: 'Montserrat', sans-serif;
+}
+button:disabled{
+  cursor: not-allowed;
+  opacity: 0.5;
 }
 *,
 ::before,

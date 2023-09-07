@@ -4,7 +4,7 @@ import Footer from "../footer/footer";
 const Pricing = () => {
   return (
     <>
-    <div className={`w-full h-screen max-w-screen-2xl mx-auto ${style.pricing}`}>
+    <div className={`w-full h-full max-w-screen-2xl mx-auto ${style.pricing}`}>
       <Mainnav />
       <div className={`w-[90%] mx-auto`}>
         <div
@@ -13,11 +13,11 @@ const Pricing = () => {
         >
           <img src="/money.svg" alt="" className=" h-60 w-60" />
           <h3 className="text-[#4F46BA] text-xl font-semibold">Pricing</h3>
-          <h1 className="text-center text-[#333333] sm:text-[2.4rem] font-bold leading-10 tracking-tight lg:mb-4">
+          <h1 className="text-center text-[#333333] sm:text-[2.4rem] font-bold leading-10 tracking-tight lg:mb-5">
             Find your perfect plan
           </h1>
           <p
-            className={`text-md md:w-[30%] lg:w-[30%]`}
+            className={`text-md md:w-[30%] lg:w-[30%] mt-2`}
             style={{
               color: "rgba(16, 24, 40, 0.60)",
             }}
