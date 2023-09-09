@@ -6,9 +6,9 @@ const Howitworks = () => {
     <div className="">
       <div className="relative bg-white w-full min-h-screen overflow-hidden text-left  text-gray-400 font-open-sans-hebrew max-w-screen-2xl mx-auto">
         <Mainnav />
-        <div className="flex flex-col items-center space-y-8 p-4 mb-[2.375rem]">
+        <div className="flex flex-col items-center space-y-8 p-4 mb-[2.375rem] mt-[7rem]">
           <b className=" text-lg text-[#4F46BA] leading-8 ">How it Works</b>
-          <b className="text-xl md:text-5xl tracking-tight  text-[#333] text-center sm:w-[55%]">
+          <b className="text-xl md:text-5xl tracking-tight  text-[#333] text-center sm:w-[54%]">
             Streamlined Review Enhancement with EasyReview
           </b>
 

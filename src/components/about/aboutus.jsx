@@ -7,10 +7,10 @@ const AboutUs = () => {
      <div className={`relative bg-white w-full h-full font-montserrat max-w-screen-2xl mx-auto ${style.AboutUs}`}>
       <Mainnav />
 
-      <div className="w-[90%] mx-auto flex items-center flex-wrap justify-between mt-20 mb-20  md:gap-0 gap-10">
+      <div className="sm:p-6 w-[90%] mx-auto flex items-center flex-wrap justify-between mt-20 mb-20  md:gap-0 gap-10">
         <div className="flex flex-col font-open-sans-hebrew text-darkslategray-300  md:w-[48%]">
           <h3 className="text-[#4F46BA] text-xl font-semibold">About us</h3>
-          <h1 className="text-[#333] text-3xl md:text-4xl font-bold leading-[1.2] mt-4 mb-4 md:w-[60%]">
+          <h1 className="text-[#333] text-3xl md:text-5xl font-bold leading-[1.2] mt-4 mb-4 md:w-[80%]">
             Simplify Customer Reviews for Business Success
           </h1>
           <p
@@ -35,7 +35,7 @@ const AboutUs = () => {
         </div>
       </div>
 
-      <div className="w-[90%] mx-auto flex flex-wrap justify-between mt-[50px] md:mt-[200px] gap-10 md:gap-0">
+      <div className=" sm:p-6 w-[90%] mx-auto flex flex-wrap justify-between mt-[50px] md:mt-[200px] gap-10 md:gap-0">
         <div className="flex flex-col font-open-sans-hebrew text md:w-1/3">
           <img src="/modern1.svg" alt="" className="md:w-[90%] w-[100%] mb-3" />
           <h1 className="text-xl  font-semibold mt-2 mb-3">Discover Easy Review</h1>
