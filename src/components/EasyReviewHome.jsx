@@ -10,16 +10,16 @@ const EasyReviewHome = () => {
 
         <Mainnav />
         {/* first section*/}
-        <div className="w-[90%] mx-auto  flex flex-row flex-wrap items-center justify-between text-darkslategray-200 Enhance  mt-32 mb-[100px]">
+        <div className="w-[90%] mx-auto  flex flex-row-reverse sm:flex-row flex-wrap items-center justify-between text-darkslategray-200 Enhance  mt-32 mb-[100px]">
           <div className="md:w-1/2 flex flex-col items-start justify-start gap-8 sm:p-6">
-            <h1 className="font-open-sans-hebrew md:leading-tight text-[#333333] text-2xl lg:text-5xl">
+            <h1 className="font-open-sans-hebrew md:leading-tight text-[#333333] text-3xl lg:text-5xl">
               Enhance Business Reputation with Genuine Customer Reviews.
             </h1>
             <p className="leading-8 text-[#828282] sm:w-[62%]">
               The Ultimate Review Collection Solution with a single card tap
             </p>
             <div className="flex gap-8">
-              <Link to="/browser" className="bg-[#F1573B] text-white py-2 gap-6 p-2 pl-5 rounded-lg mt-6 flex  justify-center items-center">
+              <Link to="/pricing" className="bg-[#F1573B] text-white py-2 gap-6 p-2 pl-5 rounded-lg mt-6 flex  justify-center items-center">
                 <p>Get Started</p>
                 <div
                   className="
@@ -131,7 +131,7 @@ const EasyReviewHome = () => {
             <div className="w-full">
               <img
                 className="w-[90%] h-auto object-cover"
-                src="/Image.svg"
+                src="/man.svg"
                 alt=""
               />
             </div>

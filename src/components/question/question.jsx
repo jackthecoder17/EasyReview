@@ -1,14 +1,15 @@
-
 import { useState } from "react";
 import style from "./question.module.scss";
 import Navbar from "../navbar/Navbar";
-import { Link } from "react-router-dom";
+import { Link, useNavigate, useNavigation } from "react-router-dom";
+import LoaderIcon from "react-loader-icon";
 import { GenerateReviewApi } from "../../api/questionApi";
 const Question = () => {
+  const navigate = useNavigate(); 
   const [isLoading, setIsLoading] = useState(false);
   const [selectedAnswers, setSelectedAnswers] = useState([null, null, null]);
 
-  const handleAnswerClick = (index,answer) => {
+  const handleAnswerClick = (index, answer) => {
     const newAnswer = [...selectedAnswers];
     newAnswer[index] = answer;
     setSelectedAnswers(newAnswer);
@@ -20,16 +21,21 @@ const Question = () => {
       reccomendation1: selectedAnswers[0],
       reccomendation2: selectedAnswers[1],
       reccomendation3: selectedAnswers[2],
-    }).then(res => {
-      console.log(res);
-      console.log(selectedAnswers);
-      setIsLoading(false);
-    }).catch((err)=>{
-      console.log(err);
-      setIsLoading(false);
     })
-    console.log('HEY')
-  }
+      .then((res) => {
+        console.log(res);
+        localStorage.setItem("review", res.data.review);
+        console.log(selectedAnswers);
+        setIsLoading(false);
+        navigate("/note");
+
+      })
+      .catch((err) => {
+        console.log(err);
+        setIsLoading(false);
+      });
+    console.log("HEY");
+  };
   return (
     <div className={`${style.Question} w-full h-screen flex flex-col`}>
       <Navbar />
@@ -38,20 +44,26 @@ const Question = () => {
           <h1 className={`text-xl text-[#898989] font-bold mt-3 mb-11`}>
             Select an answer
           </h1>
-          {[0, 1, 2].map(questionIndex => (
+          {[0, 1, 2].map((questionIndex) => (
             <div className="flex flex-col mb-10" key={questionIndex}>
               <h1
-              className={`
+                className={`
               font-bold text-xl
               `}
-              >How was your overall experience?</h1>
+              >
+                How was your overall experience?
+              </h1>
               <div className="flex flex-wrap gap-4">
-                {["Good", "Average", "Excellent", "Bad"].map(answer => (
+                {["Good", "Average", "Excellent", "Bad"].map((answer) => (
                   <button
                     key={answer}
                     onClick={() => handleAnswerClick(questionIndex, answer)}
                     className={`flex items-center px-4 py-4 border rounded-lg  
-                    ${selectedAnswers[questionIndex] === answer ? "border-[#4F46BA]" : ""}
+                    ${
+                      selectedAnswers[questionIndex] === answer
+                        ? "border-[#4F46BA]"
+                        : ""
+                    }
                     `}
                   >
                     <span
@@ -69,19 +81,23 @@ const Question = () => {
           ))}
           <div className="flex w-full gap-6 mt-12 justify-center">
             <button
-            className="
+              className="
             font-bold text-xl text-[#21243D]
             "
             >
-                Back
+              Back
             </button>
-            <button 
+            <button
               onClick={handleGenerate}
               disabled={selectedAnswers.includes(null) || isLoading}
-                className={`bg-[#4F46BA] text-white flex items-center justify-center px-12 py-4 rounded-[17px] font-bold`}
-            >Generate</button>
+              className={`bg-[#4F46BA] text-white flex items-center justify-center px-12 py-4 rounded-[17px] font-bold`}
+            >
+              {
+                isLoading ? <LoaderIcon type="cylon" color="#fff" size={25} /> : "Generate"
+              }
+              {/* Generate */}
+            </button>
           </div>
-          
         </div>
       </div>
     </div>

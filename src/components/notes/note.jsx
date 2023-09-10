@@ -4,8 +4,16 @@ import Navbar from "../navbar/Navbar";
 import copy from "../../assets/copy.svg";
 import edit from "../../assets/edit.svg";
 import { Link } from "react-router-dom";
-
+import { useState, useEffect } from "react";
 const Note = () => {
+  const [note, setNote] = useState("");
+  useEffect(() => {
+    setNote(localStorage.getItem("review"));
+  }, []);
+const copyToClipboard = () => {
+  navigator.clipboard.writeText(note);
+  console.log("copied");
+}
   return (
     <div className={`w-full h-screen ${style.Note}`}>
       <Navbar />
@@ -19,11 +27,12 @@ const Note = () => {
       <div className="w-[90%] mx-auto maincont flex flex-row flex-wrap gap-5 justify-center">
         <div className={`${style.comment} `}>
           <p className="mb-3">
-            I had a fantastic dining experience at Rebecca`s restaurant. The
-            ambiance, service, and food were all exceptional
+           {note}
           </p>
           <div className="flex justify-between">
-            <div className="flex gap-1 cursor-pointer">
+            <div className="flex gap-1 cursor-pointer hover:text-[#4F46BA] text-[#353535] focus:shadow-outline"
+            onClick={copyToClipboard}
+            >
               <img
                 src={copy}
                 alt=""
@@ -31,7 +40,7 @@ const Note = () => {
                     w-5 h-5
                     "
               />
-              <p>copy</p>
+              <p className="hover:text-[#4F46BA]">copy</p>
             </div>
             <Link to="/feedback">
               <img
@@ -44,7 +53,7 @@ const Note = () => {
             </Link>
           </div>
         </div>
-        <div className={`${style.comment} `}>
+        {/* <div className={`${style.comment} `}>
           <p className="mb-3">
             I had a fantastic dining experience at Rebecca`s restaurant. The
             ambiance, service, and food were all exceptional
@@ -124,7 +133,7 @@ const Note = () => {
               />
             </Link>
           </div>
-        </div>
+        </div> */}
       </div>
 
       <div className="flex justify-center mt-5">
