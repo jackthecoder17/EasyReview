@@ -25,6 +25,15 @@ button:disabled{
   cursor: not-allowed;
   opacity: 0.5;
 }
+.monteserrat{
+  font-family: 'Montserrat', sans-serif;
+}
+.manrope{
+  font-family: 'Manrope', sans-serif;
+}
+.opensans{
+  font-family: 'Open Sans', sans-serif;
+}
 *,
 ::before,
 ::after {

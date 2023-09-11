@@ -1,4 +1,4 @@
-import Navbar from "../navbar/Navbar";
+import Navbar from "../../components/navbar/Navbar";
 import phone from "../../assets/phone.svg";
 import style from "./GetStarted.module.scss";
 import { useNavigate } from "react-router";

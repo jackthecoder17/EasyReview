@@ -1,16 +1,16 @@
 import "./App.css";
 import { Route, Routes } from "react-router";
-import EasyReviewHome from "./components/EasyReviewHome";
-import Browser from "./components/browser/Browser";
-import GetStarted from "./components/getstarted/GetStarted";
-import Question from "./components/question/question";
-import Note from "./components/notes/note";
-import Feedback from "./components/getfeedback/feedback";
-import Howitworks from "./components/howitworks/howitworks";
-import Contact from "./components/contact/contact";
-import AboutUs from "./components/about/aboutus";
-import Pricing from "./components/pricing/pricing";
-import Blog from "./components/blog/blog";
+import EasyReviewHome from "./routes/EasyReviewHome";
+import Browser from "./routes/browser/Browser";
+import GetStarted from "./routes/getstarted/GetStarted";
+import Question from "./routes/question/question";
+import Note from "./routes/notes/note";
+import Feedback from "./routes/getfeedback/feedback";
+import Howitworks from "./routes/howitworks/howitworks";
+import Contact from "./routes/contact/contact";
+import AboutUs from "./routes/about/aboutus";
+import Pricing from "./routes/pricing/pricing";
+import Blog from "./routes/blog/blog";
 function App() {
   return (
     <>

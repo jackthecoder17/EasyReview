@@ -1,10 +1,10 @@
-import Mainnav from "../mainNavbar/miannav";
-import Footer from "../footer/footer";
+import Mainnav from "../../components/mainNavbar/miannav";
+import Footer from "../../components/footer/footer";
 import { Link } from "react-router-dom";
 const Howitworks = () => {
   return (
     <div className="">
-      <div className="relative bg-white w-full min-h-screen overflow-hidden text-left  text-gray-400 font-open-sans-hebrew max-w-screen-2xl mx-auto">
+      <div className="relative bg-white w-full min-h-screen text-left  text-gray-400 font-open-sans-hebrew max-w-screen-2xl mx-auto">
         <Mainnav />
         <div className="flex flex-col items-center space-y-8 p-4 mb-[2.375rem] mt-[7rem]">
           <b className=" text-lg text-[#4F46BA] leading-8 ">How it Works</b>

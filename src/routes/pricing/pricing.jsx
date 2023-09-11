@@ -1,6 +1,6 @@
 import style from "./pricing.module.scss";
-import Mainnav from "../mainNavbar/miannav";
-import Footer from "../footer/footer";
+import Mainnav from "../../components/mainNavbar/miannav";
+import Footer from "../../components/footer/footer";
 const Pricing = () => {
   return (
     <>

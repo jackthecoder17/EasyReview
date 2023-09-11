@@ -1,5 +1,5 @@
 import style from "./note.module.scss";
-import Navbar from "../navbar/Navbar";
+import Navbar from "../../components/navbar/Navbar";
 
 import copy from "../../assets/copy.svg";
 import edit from "../../assets/edit.svg";
@@ -137,12 +137,14 @@ const copyToClipboard = () => {
       </div>
 
       <div className="flex justify-center mt-5">
-        <Link
-          to="/note"
+        <a
+          href="https://www.google.com/search?q=restaurants+near+me&oq=rest&aqs=chrome.0.69i59j46i199i433i465i512j0i67i457i650j0i402i650l2j0i67i131i433i650j0i67i650j69i61.1140j0j7&sourceid=chrome&ie=UTF-8#ip=1&lkt=LocalPoiReviews&lrd=0x103b8e80f3d34b3f:0x5fb889ef026bca56,3,,,,&rlimm=6897414488948722262"
+          target="_blank"
+          rel="noreferrer"
           className={`bg-[#4F46BA] text-white  items-center justify-center px-12 py-4 rounded-[17px] font-bold`}
         >
           Post Feedback
-        </Link>
+        </a>
       </div>
     </div>
   );

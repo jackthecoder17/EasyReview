@@ -1,6 +1,6 @@
 import style from "./feedback.module.scss";
-import Navbar from "../navbar/Navbar";
-import Star from "../stars/stars";
+import Navbar from "../../components/navbar/Navbar";
+import Star from "../../components/stars/stars";
 import { useState } from "react";
 const Feedback = () => {
     const [rating, setRating] = useState(0);

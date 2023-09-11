@@ -1,6 +1,6 @@
 import { useState } from "react";
 import style from "./question.module.scss";
-import Navbar from "../navbar/Navbar";
+import Navbar from "../../components/navbar/Navbar";
 import { Link, useNavigate, useNavigation } from "react-router-dom";
 import LoaderIcon from "react-loader-icon";
 import { GenerateReviewApi } from "../../api/questionApi";

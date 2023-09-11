@@ -1,11 +1,11 @@
 import "./EasyReviewHome.styles.scss";
-import Mainnav from "./mainNavbar/miannav";
-import Footer from "./footer/footer";
+import Mainnav from "./../components/mainNavbar/miannav";
+import Footer from "./../components/footer/footer";
 import { Link } from "react-router-dom";
 const EasyReviewHome = () => {
   return (
     <>
-      <div className="Easycontainer max-w-screen-2xl mx-auto h-full overflow-hidden text-left text-base text-slateblue font-montserrat">
+      <div className="Easycontainer max-w-screen-2xl mx-auto h-full text-left text-base text-slateblue font-montserrat w-full">
         {/* header */}
 
         <Mainnav />

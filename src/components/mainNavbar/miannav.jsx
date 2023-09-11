@@ -6,8 +6,8 @@ import { Link } from "react-router-dom";
 const Mainnav = () => {
   const [mobileMenuOpen, setMobileMenuOpen] = useState(false);
   return (
-    <header className="bg-white pt-2 w-full ">
-      <nav className=" fixed top-0 z-10 bg-white w-full" aria-label="Global">
+    <header className="bg-white pt-2 w-full sticky top-0 z-20">
+      <nav className="sticky z-10 bg-white w-full mx-auto" aria-label="Global">
         <div className="w-[90%] mx-auto flex items-center justify-between sm:p-6 pt-3 sm:pb-0 pb-2">
           <div className="flex lg:flex-1">
             <Link to="/" href="#" className="">

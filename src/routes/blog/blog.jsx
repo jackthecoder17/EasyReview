@@ -1,6 +1,6 @@
 import React from "react";
-import Mainnav from "../mainNavbar/miannav";
-import Footer from "../footer/footer";
+import Mainnav from "../../components/mainNavbar/miannav";
+import Footer from "../../components/footer/footer";
 import { Link } from "react-router-dom";
 import style from "./blog.module.scss";
 const Blog = () => {
