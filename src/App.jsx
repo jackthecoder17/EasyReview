@@ -11,6 +11,8 @@ import Contact from "./routes/contact/contact";
 import AboutUs from "./routes/about/aboutus";
 import Pricing from "./routes/pricing/pricing";
 import Blog from "./routes/blog/blog";
+import Generate from "./routes/generate/generate";
+import Billing from "./routes/billing/billing";
 function App() {
   return (
     <>
@@ -26,6 +28,8 @@ function App() {
         <Route path="/aboutus" element={<AboutUs />} />
         <Route path="/pricing" element={<Pricing />} />
         <Route path="/blog" element={<Blog />} />
+        <Route path="/generate" element={<Generate />} />
+        <Route path="/billing" element={<Billing />} />
       </Routes>  
       
     </>
