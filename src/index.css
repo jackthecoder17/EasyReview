@@ -34,6 +34,10 @@ button:disabled{
 .opensans{
   font-family: 'Open Sans', sans-serif;
 }
+
+input[type="checkbox"]:checked {
+  background-color: #4F46BA !important;
+}
 *,
 ::before,
 ::after {
