@@ -7,7 +7,7 @@ const Mainnav = () => {
   const [mobileMenuOpen, setMobileMenuOpen] = useState(false);
   return (
     <header className="bg-white pt-2 w-full sticky top-0 z-10">
-      <nav className="sticky z-10 bg-white w-full mx-auto" aria-label="Global">
+      <nav className="bg-white w-full mx-auto" aria-label="Global">
         <div className="w-[90%] mx-auto flex items-center justify-between sm:p-6 pt-3 sm:pb-0 pb-2">
           <div className="flex lg:flex-1">
             <Link to="/" href="#" className="">
@@ -78,7 +78,7 @@ const Mainnav = () => {
         open={mobileMenuOpen}
         onClose={setMobileMenuOpen}
       >
-        <div className="fixed inset-0 z-20" />
+        <div className="fixed inset-0" />
         <Dialog.Panel className="fixed inset-y-0 right-0 z-10  overflow-y-auto bg-white px-6 py-6 sm:max-w-sm sm:ring-1 sm:ring-gray-900/10 trasnsition-all ease-in-out duration-500">
           <div className="flex items-center justify-between">
             <a href="#" className="-m-1.5 p-1.5">

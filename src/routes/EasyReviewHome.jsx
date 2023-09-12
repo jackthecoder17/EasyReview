@@ -10,7 +10,7 @@ const EasyReviewHome = () => {
 
         <Mainnav />
         {/* first section*/}
-        <div className="w-[90%] mx-auto  flex flex-row-reverse sm:flex-row flex-wrap items-center justify-between text-darkslategray-200 Enhance  mt-32 mb-[100px]">
+        <div className="w-[90%] mx-auto  flex flex-row-reverse sm:flex-row flex-wrap items-center justify-between text-darkslategray-200 Enhance mt-10 sm:mt-32 mb-[100px]">
           <div className="md:w-1/2 flex flex-col items-start justify-start gap-8 sm:p-6">
             <h1 className="font-open-sans-hebrew md:leading-tight text-[#333333] text-3xl lg:text-5xl">
               Enhance Business Reputation with Genuine Customer Reviews.
