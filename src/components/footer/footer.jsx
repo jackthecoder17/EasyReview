@@ -9,27 +9,30 @@ const Footer = () => {
           <img className="w-32" alt="" src="/logo.svg" />
         </div>
         <div className="flex flex-col px-2.5 gap-4">
-          <b className="tracking-tight leading-6">Product</b>
-          <div className="flex flex-col gap-2 text-sm text-gray-300">
-            <Link to="/howitworks" className="leading-6">How it’s work</Link>
-            <Link to="/" className="leading-6">Dashboard</Link>
+          {/* <b className="tracking-tight leading-6">Product</b> */}
+          <div className="flex flex-col gap-2 text-sm font-bold">
+            
+            <Link to="/howitworks" className="leading-6">How it works</Link>
+            {/* <Link to="/" className="leading-6">Dashboard</Link> */}
           </div>
         </div>
-        <div className="flex flex-col px-2.5 gap-4">
-          <b className="tracking-tight leading-6">Resources</b>
+        {/* <div className="flex flex-col px-2.5 gap-4">
+          <b className="leading-6 text-sm">
+          <Link className="leading-6" to="/billing">Billing</Link>
+          </b>
           <div className="flex flex-col gap-2 text-sm text-gray-300">
             <div className="leading-6">Knowledge Center</div>
             <div className="leading-6">Support Portal</div>
           </div>
-        </div>
+        </div> */}
         <div className="flex flex-col px-2.5 gap-4">
           <b className="tracking-tight leading-6">Company</b>
           <div className="flex flex-col gap-2 text-sm text-gray-300">
             <Link className="leading-6" to="/aboutus">About Us</Link>
-            <Link className="leading-6" to="contactus">Contact</Link>
-            <Link className="leading-6" to="/billing">Billing</Link>
+            <Link className="leading-6" to="/contactus">Contact</Link>
+            {/* <Link className="leading-6" to="/billing">Billing</Link> */}
             <Link className="leading-6" to="/generate">Generate</Link>
-            <div className="leading-6">Support</div>
+            {/* <div className="leading-6">Support</div> */}
           </div>
         </div>
       </div>

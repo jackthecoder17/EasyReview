@@ -1,6 +1,7 @@
 import style from "./pricing.module.scss";
 import Mainnav from "../../components/mainNavbar/miannav";
 import Footer from "../../components/footer/footer";
+import { Link } from "react-router-dom";
 const Pricing = () => {
   return (
     <>
@@ -85,9 +86,9 @@ const Pricing = () => {
                   </p>
                 </li>
               </ul>
-              <button className="bg-[#4F46BA] text-white font-semibold text-lg py-3 px-4 rounded-[9px] mt-10 w-full">
+              <Link to="/generate" className="bg-[#4F46BA] text-white text-center font-semibold text-lg py-3 px-4 rounded-[9px] mt-10 w-full">
                 Buy Silver Card
-              </button>
+              </Link>
             </div>
           </div>
           <div
@@ -145,9 +146,9 @@ const Pricing = () => {
                   </p>
                 </li>
               </ul>
-              <button className="bg-[#4F46BA] text-white font-semibold text-lg py-3 px-4 rounded-[9px] mt-10 w-full">
+              <Link to="/generate" className="bg-[#4F46BA] text-white text-center font-semibold text-lg py-3 px-4 rounded-[9px] mt-10 w-full">
                 Buy Silver Card
-              </button>
+              </Link>
             </div>
           </div>
           <div
@@ -179,9 +180,9 @@ const Pricing = () => {
                 tailored pricing, we work closely with you to create a plan that
                 aligns with your vision.
               </p>
-              <button className="bg-[#4F46BA] text-white font-semibold text-lg py-3 px-4 rounded-[9px] mt-10 w-full">
+              <Link to="/generate" className="bg-[#4F46BA] text-white text-center font-semibold text-lg py-3 px-4 rounded-[9px] mt-10 w-full">
                 Get Started
-              </button>
+              </Link>
             </div>
           </div>
         </div>

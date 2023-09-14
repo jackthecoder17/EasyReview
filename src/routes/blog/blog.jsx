@@ -225,37 +225,37 @@ const Blog = () => {
             Frequently asked Questions
           </b>
         </div>
-        <div className="flex flex-col items-center justify-start text-xl text-gray-200 font-manrope py-8 px-8 md:px-24 lg:px-48 w-full md:w-3/4">
+        <div className="flex flex-col items-center justify-start text-xl text-gray-200 font-manrope py-8 px-8 md:px-24 lg:px-48 w-full md:w-[90%]">
           <div className="flex flex-col items-start justify-between w-full gap-6">
             <div className="flex justify-between items-center w-full border-b border-gray-400 py-4">
               <div className="leading-7 font-medium text-[#101828]">
                 What is EasyReview ?
               </div>
-              <img className="w-5 h-5" alt="" src="/vector.svg" />
+              <img className="w-5 h-5 mr-5" alt="" src="/vector.svg" />
             </div>
             <div className="flex justify-between items-center w-full border-b border-gray-400 py-4">
               <div className="leading-7 font-medium text-[#101828]">
                 How are the generated reviews personalized ?
               </div>
-              <img className="w-5 h-5" alt="" src="/vector.svg" />
+              <img className="w-5 h-5 mr-5" alt="" src="/vector.svg" />
             </div>
             <div className="flex justify-between items-center w-full border-b border-gray-400 py-4">
               <div className="leading-7 font-medium text-[#101828]">
                 What insights does the analytics dashboard provide?
               </div>
-              <img className="w-5 h-5" alt="" src="/vector.svg" />
+              <img className="w-5 h-5 mr-5" alt="" src="/vector.svg" />
             </div>
             <div className="flex justify-between items-center w-full border-b border-gray-400 py-4">
               <div className="leading-7 font-medium text-[#101828]">
                 Is customer data safe and secure?
               </div>
-              <img className="w-5 h-5" alt="" src="/vector.svg" />
+              <img className="w-5 h-5 mr-5" alt="" src="/vector.svg" />
             </div>
             <div className="flex justify-between items-center w-full border-b border-gray-400 py-4">
               <div className="leading-7 font-medium text-[#101828]">
                 How can my business get started with EasyReview?
               </div>
-              <img className="w-5 h-5" alt="" src="/vector.svg" />
+              <img className="w-5 h-5 mr-5" alt="" src="/vector.svg" />
             </div>
           </div>
         </div>

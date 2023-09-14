@@ -2,6 +2,7 @@
 import Mainnav from "../../components/mainNavbar/miannav";
 import Footer from "../../components/footer/footer";
 import { useState } from "react";
+import { Link } from "react-router-dom";
 const Generate = () => {
   const [selectedAnswers, setSelectedAnswers] = useState([null, null, null]);
 
@@ -136,9 +137,9 @@ const Generate = () => {
               </div>
             ))}
             <div className="flex justify-center">
-              <button className="monteserrat bg-[#4F46BA] text-white p-5 rounded-md">
+              <Link to="/billing" className="monteserrat bg-[#4F46BA] text-white p-5 rounded-md">
                 Process to Checkout
-              </button>
+              </Link>
             </div>
           </div>
         </div>

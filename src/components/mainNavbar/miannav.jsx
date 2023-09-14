@@ -6,7 +6,7 @@ import { Link } from "react-router-dom";
 const Mainnav = () => {
   const [mobileMenuOpen, setMobileMenuOpen] = useState(false);
   return (
-    <header className="bg-white pt-2 w-full sticky top-0 z-10">
+    <header className="bg-white w-full sticky top-0 z-10">
       <nav className="bg-white w-full mx-auto" aria-label="Global">
         <div className="w-[90%] mx-auto flex items-center justify-between sm:p-6 pt-3 sm:pb-0 pb-2">
           <div className="flex lg:flex-1">
@@ -63,7 +63,7 @@ const Mainnav = () => {
             </Link>
           </Popover.Group>
           <Link
-            to="/browser"
+            to="/pricing"
             className="hidden lg:flex lg:flex-1 lg:justify-end"
           >
             <button className="bg-[#4F46BA] text-white py-2 px-6 rounded-lg flex">
@@ -136,7 +136,7 @@ const Mainnav = () => {
                   Blog
                 </Link>
               </div>
-              <Link className="py-6" to="/browser">
+              <Link className="py-6" to="/pricing">
                 <button className="bg-[#4F46BA] text-white py-2 px-6 rounded-lg flex">
                   Get Started
                 </button>

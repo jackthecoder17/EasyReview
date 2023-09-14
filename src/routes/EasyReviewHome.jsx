@@ -10,7 +10,7 @@ const EasyReviewHome = () => {
 
         <Mainnav />
         {/* first section*/}
-        <div className="w-[90%] mx-auto  flex flex-row-reverse sm:flex-row flex-wrap items-center justify-between text-darkslategray-200 Enhance mt-10 sm:mt-32 mb-[100px]">
+        <div className="w-[90%] mx-auto  flex flex-row-reverse sm:flex-row flex-wrap items-center justify-between text-darkslategray-200 Enhance mt-10 sm:mt-10 mb-[100px]">
           <div className="md:w-1/2 flex flex-col items-start justify-start gap-8 sm:p-6">
             <h1 className="font-open-sans-hebrew md:leading-tight text-[#333333] text-3xl lg:text-5xl">
               Enhance Business Reputation with Genuine Customer Reviews.
@@ -302,31 +302,31 @@ const EasyReviewHome = () => {
                 <div className="leading-7 font-medium text-[#101828]">
                   What is EasyReview ?
                 </div>
-                <img className="w-5 h-5" alt="" src="/vector.svg" />
+                <img className="w-5 h-5 mr-5" alt="" src="/vector.svg" />
               </div>
               <div className="flex justify-between items-center w-full border-b border-gray-400 py-4">
                 <div className="leading-7 font-medium text-[#101828]">
                   How are the generated reviews personalized ?
                 </div>
-                <img className="w-5 h-5" alt="" src="/vector.svg" />
+                <img className="w-5 h-5 mr-5" alt="" src="/vector.svg" />
               </div>
               <div className="flex justify-between items-center w-full border-b border-gray-400 py-4">
                 <div className="leading-7 font-medium text-[#101828]">
                   What insights does the analytics dashboard provide?
                 </div>
-                <img className="w-5 h-5" alt="" src="/vector.svg" />
+                <img className="w-5 h-5 mr-5" alt="" src="/vector.svg" />
               </div>
               <div className="flex justify-between items-center w-full border-b border-gray-400 py-4">
                 <div className="leading-7 font-medium text-[#101828]">
                   Is customer data safe and secure?
                 </div>
-                <img className="w-5 h-5" alt="" src="/vector.svg" />
+                <img className="w-5 h-5 mr-5" alt="" src="/vector.svg" />
               </div>
               <div className="flex justify-between items-center w-full border-b border-gray-400 py-4">
                 <div className="leading-7 font-medium text-[#101828]">
                   How can my business get started with EasyReview?
                 </div>
-                <img className="w-5 h-5" alt="" src="/vector.svg" />
+                <img className="w-5 h-5 mr-5" alt="" src="/vector.svg" />
               </div>
             </div>
           </div>
