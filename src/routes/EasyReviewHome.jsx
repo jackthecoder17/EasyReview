@@ -11,7 +11,7 @@ const EasyReviewHome = () => {
         <Mainnav />
         {/* first section*/}
         <div className="w-[90%] mx-auto  flex flex-row-reverse sm:flex-row flex-wrap items-center justify-between text-darkslategray-200 Enhance mt-10 sm:mt-10 mb-[100px]">
-          <div className="md:w-1/2 flex flex-col items-start justify-start gap-8 sm:p-6">
+          <div className="md:w-1/2 flex flex-col items-start justify-start gap- sm:p-6">
             <h1 className="font-open-sans-hebrew md:leading-tight text-[#333333] text-3xl lg:text-5xl">
               Enhance Business Reputation with Genuine Customer Reviews.
             </h1>
@@ -44,7 +44,7 @@ const EasyReviewHome = () => {
           </div>
         </div>
         {/* second section */}
-        <div className="flex flex-col mt-10 items-center justify-start text-center font-open-sans-hebrew overview">
+        <div className="flex flex-col mt-10 items-center justify-start text-center font-open-sans-hebrew overview mb-[100px]">
           <div className="flex flex-col items-center justify-start gap-2 px-4 md:px-32 lg:px-48 firstcont pb-[70px]">
             <b className="leading-7 text-left text-[#4F46BA]">Overview</b>
             <b className="text-4xl md:text-5xl leading-tight text-darkslategray-200">
@@ -55,10 +55,10 @@ const EasyReviewHome = () => {
               AI-Powered Simplicity.
             </p>
           </div>
-          <div className="flex flex-wrap justify-center sm:gap-14 text-left text-xl secondcont">
-            <div className="flex flex-col p-6 items-start justify-start gap-4">
+          <div className="flex flex-wrap justify-center sm:gap-5 text-left text-xl secondcont">
+            <div className="flex flex-col p-5 items-start justify-start gap-4">
               <img className="w-12 h-12" alt="" src="/icon7.svg" />
-              <b className="tracking-tight leading-7 sm:w-48">
+              <b className="tracking-tight leading-7 sm:w-52">
                 Effortless Review Collection
               </b>
               <div className="text-sm leading-7 font-montserrat text-gray-600 sm:w-60">
@@ -67,7 +67,7 @@ const EasyReviewHome = () => {
                 real-time reviews.
               </div>
             </div>
-            <div className="flex flex-col p-6 items-start justify-start gap-4">
+            <div className="flex flex-col p-5 items-start justify-start gap-4">
               <img className="w-12 h-12" alt="" src="/icon8.svg" />
               <b className="tracking-tight leading-7 sm:w-48">
                 Enhanced Review Quality
@@ -78,7 +78,7 @@ const EasyReviewHome = () => {
                 feedback for the business.
               </div>
             </div>
-            <div className="flex flex-col p-6 items-start justify-start gap-4">
+            <div className="flex flex-col p-5 items-start justify-start gap-4">
               <img className="w-12 h-12" alt="" src="/icon9.svg" />
               <b className="tracking-tight leading-7 sm:w-48">
                 Streamlined Sharing
@@ -89,7 +89,7 @@ const EasyReviewHome = () => {
                 online reputation.
               </div>
             </div>
-            <div className="flex flex-col p-6 items-start justify-start gap-4">
+            <div className="flex flex-col p-5 items-start justify-start gap-4">
               <img className="w-12 h-12" alt="" src="/icon10.svg" />
               <b className="tracking-tight leading-7 sm:w-48">
                 Data-Driven Insights
@@ -104,7 +104,7 @@ const EasyReviewHome = () => {
         </div>
 
         {/* third section */}
-        <div className="w-[90%] flex flex-col items-center justify-start gap-4 mt-9 mx-auto">
+        <div className="w-[90%] flex flex-col items-center justify-start gap-4 mb-[100px] mx-auto">
           <div className="w-full flex flex-col items-center justify-start gap-2 px-4 md:px-32">
             <b className="leading-7">Our Clients</b>
             <div className="text-center leading-7 font-manrope text-gray-600">
@@ -126,7 +126,7 @@ const EasyReviewHome = () => {
         </div>
 
         {/* fourth section */}
-        <div className="flex flex-col md:flex-row py-8 px-4 md:px-6 items-center justify-between gap-8 mt-9 mx-auto font-open-sans-hebrew integration">
+        <div className="flex flex-col md:flex-row py-8 px-4 md:px-6 items-center justify-between gap-8 mb-[100px] mx-auto font-open-sans-hebrew integration">
           <div className="flex flex-col p-8  justify-start w-full md:w-1/2">
             <div className="w-full">
               <img
@@ -174,7 +174,7 @@ const EasyReviewHome = () => {
         </div>
 
         {/* fifth section */}
-        <div className="w-[90%] flex flex-col md:flex-row  items-center justify-center gap-16 mx-auto integration">
+        <div className="w-[90%] flex flex-col md:flex-row  items-center justify-center gap-16 mx-auto integration mb-[100px]">
           <div className="flex flex-col items-start justify-start gap-8 w-full md:w-1/2">
             <div className="flex flex-col items-start justify-start gap-4">
               <div className="leading-7 font-semibold text-[#4F46BA]">
@@ -222,7 +222,7 @@ const EasyReviewHome = () => {
           </div>
         </div>
         {/* sixth section */}
-        <div className="w-[90%] flex flex-col items-start justify-start gap-12 font-open-sans-hebrew  mx-auto integration">
+        <div className="w-[90%] flex flex-col items-start justify-start gap-12 font-open-sans-hebrew  mx-auto integration mb-[100px]">
           <div className="flex flex-col items-start justify-start gap-5 w-full md:w-3/4 lg:w-1/2">
             <b className="leading-7 text-[#4F46BA]">Why choose us</b>
             <b className="text-4xl md:text-5xl tracking-tight leading-relaxed text-darkslategray-200">
@@ -230,8 +230,8 @@ const EasyReviewHome = () => {
             </b>
           </div>
           <div className="flex flex-col md:flex-row py-8 px-0 w-full items-center justify-center gap-16 text-sm text-gray-500 font-montserrat maincol">
-            <div className="flex flex-col gap-10 w-full md:w-1/2">
-              <div className="flex flex-row gap-6 bg-silver rounded-md p-4">
+            <div className="flex flex-col gap w-full gap-2 md:w-1/2">
+              <div className="flex flex-row gap-6 bg-silver rounded-md p-4 bg-[#B5B5B50D]">
                 <img className="w-12 h-12" alt="" src="/icon.svg" />
                 <div className="flex flex-col gap-2">
                   <h2 className="text-lg leading-7 font-medium">
@@ -245,7 +245,7 @@ const EasyReviewHome = () => {
                   </div>
                 </div>
               </div>
-              <div className="flex flex-row  gap-6 bg-mediumblue rounded-md p-4">
+              <div className="flex flex-row  gap-6 bg-[#1000C50A] rounded-md p-4">
                 <img className="w-12 h-12" alt="" src="/icon1.svg" />
                 <div className="flex flex-col gap-2">
                   <h2 className="text-lg leading-7 font-medium">
@@ -260,7 +260,7 @@ const EasyReviewHome = () => {
                   </div>
                 </div>
               </div>
-              <div className="flex flex-row  gap-6 bg-silver rounded-md p-4">
+              <div className="flex flex-row  gap-6 bg-[#B5B5B50D] rounded-md p-4">
                 <img className="w-12 h-12" alt="" src="/icon2.svg" />
                 <div className="flex flex-col gap-2">
                   <h2 className="text-lg leading-7 font-medium">
@@ -287,7 +287,7 @@ const EasyReviewHome = () => {
           </div>
         </div>
         {/* seventh section */}
-        <div className="w-full flex flex-col items-center justify-start mx-auto mb-10">
+        <div className="w-full flex flex-col items-center justify-start mx-auto mb-[100px]">
           <div className="flex flex-col items-center justify-start gap-5 py-8 px-8 md:px-24 lg:px-48">
             <div className="leading-7 font-semibold text-[#4F46BA]">
               Feedback

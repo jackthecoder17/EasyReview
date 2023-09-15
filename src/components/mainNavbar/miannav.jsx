@@ -8,7 +8,7 @@ const Mainnav = () => {
   return (
     <header className="bg-white w-full sticky top-0 z-10">
       <nav className="bg-white w-full mx-auto" aria-label="Global">
-        <div className="w-[90%] mx-auto flex items-center justify-between sm:p-6 pt-3 sm:pb-0 pb-2">
+        <div className="w-[90%] mx-auto flex items-center justify-between py-5">
           <div className="flex lg:flex-1">
             <Link to="/" href="#" className="">
               <span className="sr-only">Your Company</span>

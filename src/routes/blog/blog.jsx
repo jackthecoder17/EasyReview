@@ -8,7 +8,7 @@ const Blog = () => {
     <>
     <div className={`w-full max-w-screen-2xl mx-auto h-full ${style.Blog}`}>
       <Mainnav />
-      <div className={`w-[90%] mx-auto sm:p-6 mt-[6.5rem]`}>
+      <div className={`w-[90%] mx-auto sm:p-6`}>
         <div className={`flex flex-col w-full ${style.section1} mt-5`}>
           <h1 className={`text-[#4F46BA] font-bold text-xl`}>The Blog</h1>
           <p
