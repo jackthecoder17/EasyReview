@@ -23,7 +23,7 @@ const Howitworks = () => {
         </div>
 
         <div className="w-[90%] mx-auto flex flex-col md:flex-row items-center justify-center space-y-4 md:space-y-0 md:space-x-8 p-4 bg-slateblue rounded text-black mb-10">
-          <Link to="/browser"
+          <Link to="/pricing"
             className="leading-tight font-semibold 
         bg-[#4F46BA] text-white px-6 py-3 rounded-lg
         font-manrope"
